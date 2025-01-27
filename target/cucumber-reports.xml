@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.091" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Anadolu Sigorta Web Production Scenarios(ChromeDriver)" name="The Details, What It Includes, Special Services which open respectively on the page related to a product that is randomly clicked, should not be empty." time="25.982">
+<system-out><![CDATA[
+Given I navigate to main url................................................passed
+When I check 25 titles on the mainpage......................................passed
+Then I take screenshot and save as "mainpage_loaded_successfully"...........passed
+Given I go to products tab and click randomly a product.....................passed
+When I see the product is loaded successfully...............................passed
+Then I take screenshot and save as "productpage_loaded_successfully"........passed
+When I check are we at the right page.......................................passed
+Then I should see all informations tabs has their explonations..............passed
+Then I take screenshot and save as "customer_can_take_informations_about_product".passed
+]]></system-out>
+</testcase>
+</testsuite>
